@@ -13,17 +13,17 @@ return [
         array(
             'line1' => 'The Ultimate Luxury Experience',
             'line2' => 'Enjoy The Best Moments of Life',
-            'image' => 'frontend/img/slider/1.jpg',
+            'image' => 'frontend/img/course/h1.jpg',
         ),
         array(
             'line1' => 'Luxury Hotel & Best Resort',
             'line2' => 'Enjoy a Luxury Experience',
-            'image' => 'frontend/img/slider/2.jpg',
+            'image' => 'frontend/img/course/h2.jpg',
         ),
         array(
             'line1' => 'Unique Place to Relax & Enjoy',
             'line2' => 'The Perfect Base For You',
-            'image' => 'frontend/img/slider/3.jpg',
+            'image' => 'frontend/img/course/h3.jpg',
         ),
     ],
     'course' => [

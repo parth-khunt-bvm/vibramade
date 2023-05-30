@@ -1,5 +1,9 @@
 @extends('frontend.layout.app')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 @section('content')
+
     <!-- Slider -->
     <header class="header slider-fade">
         <div class="owl-carousel owl-theme">
@@ -114,7 +118,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="single-facility animate-box" data-animate-effect="fadeInUp">
-                        <span class="flaticon-world"></span>
+                        <span class=""><i class='fa fa-code'></i></span>
                         <h5>Web Development</h5>
                         <p>We are creating elite and responsive websites with a cost-effective and flexible approach with our excellent technology.</p>
                         <div class="facility-shape"><span class="flaticon-world"></span></div>
@@ -169,7 +173,7 @@
     </section>
     <!-- Reservation & Booking Form -->
     <section class="testimonials">
-        <div class="background bg-img bg-fixed section-padding pb-0" data-background="frontend/img/slider/2.jpg"
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="frontend/img/img1.jpg"
              data-overlay-dark="2">
             <div class="container">
                 <div class="row">
@@ -178,17 +182,7 @@
                         <h5>As a leading web development firm, we provide experienced consultants, designers, and
                             developers to take your online presence to the next level. </h5>
                         <h5>In addition to creating robust, scalable, and secure enterprise web-based experiences,
-                            Vibramade can also help organizations with migrations, upgrades, and integration. Lastly, we
-                            offer a full-service Managed Services offering that includes 24x7 support and maintenance
-                            that is able to handle even the most
-                            extreme and complex cases swiftly and easily.</h5>
-                        <div class="reservations mb-30">
-                            <div class="icon color-1"><span class="flaticon-call"></span></div>
-                            <div class="text">
-                                <p class="color-1">{{ Config::get( 'constants.PROJECT_NAME' ) }}</p> <a class="color-1"
-                                                                                                        href="tel:855-100-4444">{{ Config::get( 'constants.PHONE' ) }}</a>
-                            </div>
-                        </div>
+                            Vibramade can also help organizations with migrations, upgrades, and integration.</h5>
                     </div>
                     <!-- Booking From -->
                     <div class="col-md-5 offset-md-2">
@@ -197,14 +191,15 @@
                                 <h4>Get Started</h4>
                             </div>
                             <div class="booking-inner clearfix">
-                                <form action="https://duruthemes.com/demo/html/cappa/demo1-light/rooms2.html"
+                                <form action="{{ route('save-contact-details') }}" method="post"
                                       class="form1 clearfix">
+                                    @csrf
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="input1_wrapper">
                                                 <label>Name:</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class="form-control input" placeholder="Name">
+                                                    <input type="text" class="form-control input" name="name" placeholder="Name" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -212,7 +207,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Email:</label>
                                                 <div class="input1_inner">
-                                                    <input type="email" class="form-control input" placeholder="Email">
+                                                    <input type="email" class="form-control input" name="email" placeholder="Email" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -220,7 +215,15 @@
                                             <div class="input1_wrapper">
                                                 <label>Phone:</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class="form-control input" placeholder="Phone">
+                                                    <input type="text" class="form-control input" name="phone" placeholder="Phone" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="input1_wrapper">
+                                                <label>Subject:</label>
+                                                <div class="input1_inner">
+                                                    <input type="text" class="form-control input" name="subject" placeholder="Subject" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -229,7 +232,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Message:</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class="form-control input" placeholder="Message">
+                                                    <input type="text" class="form-control input" name="message" placeholder="Message" required>
                                                 </div>
                                             </div>
                                         </div>

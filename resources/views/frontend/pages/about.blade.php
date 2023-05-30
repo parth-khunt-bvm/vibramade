@@ -53,16 +53,19 @@
                 </div>
                 <div class="col-md-5 mb-30 offset-md-1">
                     <h3>Get in touch</h3>
-                    <form method="post" class="contact__form"
-                          action="https://duruthemes.com/demo/html/cappa/demo1-light/mail.php">
-                        <!-- form message -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="alert alert-success contact__msg" style="display: none" role="alert"> Your
-                                    message was sent successfully.
-                                </div>
+                    <form class="contact__form"
+                          action="{{route('contact')}}" method="post">
+                    @csrf
+                        @if(Session::has('success'))
+                            <div class="alert alert-primary mt-2 successMessage">
+                                <p class="mb-0">{{Session::get('success')}}</p>
                             </div>
-                        </div>
+                        @endif
+                        @if(Session::has('error'))
+                            <div class="alert alert-danger mt-2 successMessage">
+                                <p class="mb-0">{{Session::get('error')}}</p>
+                            </div>
+                        @endif
                         <!-- form elements -->
                         <div class="row">
                             <div class="col-md-6 form-group">

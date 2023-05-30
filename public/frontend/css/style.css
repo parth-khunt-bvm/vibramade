@@ -3716,7 +3716,7 @@ button.mfp-arrow {
     right: 20px;
     top: 23px;
     pointer-events: none;
-    content: "\e6b6";
+    /*content: "\e6b6";*/
     font-family: "themify";
     font-size: 15px;
     color: #aa8453;

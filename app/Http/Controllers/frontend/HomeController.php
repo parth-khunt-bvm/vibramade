@@ -5,10 +5,12 @@ namespace App\Http\Controllers\frontend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Config;
+use App\Models\Contact;
+use Redirect;
 
 class HomeController extends Controller
 {
-    function index(){
+    function home(){
         $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
         $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
         $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
@@ -25,6 +27,16 @@ class HomeController extends Controller
         $data['silder'] = Config::get( 'constants.slider' );
         $data['course'] = Config::get( 'constants.course' );
         return view('frontend.pages.index', $data);
+    }
+
+    function save_contact_details(Request $request){
+        $objContact = new Contact();
+        $result = $objContact->save_contact_details($request->all());
+        if($result)
+            $messgae = "Your details succesfully sent to admin.We'll contact you soon";
+        else
+            $messgae = "Something goes to wrong";
+        return Redirect::back()->withErrors(['msg' => 'Your details succesfully sent!']);
     }
 
     function contact(){

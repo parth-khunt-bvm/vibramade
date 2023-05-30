@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\frontend\HomeController;
-
+use App\Http\Controllers\backend\LoginController;
+use Illuminate\Support\Facades\Artisan;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,8 +19,20 @@ use App\Http\Controllers\frontend\HomeController;
 //    return view('welcome');
 //});
 
-Route::get('/',[HomeController::class,'index'])->name('home');
-Route::get('contact-us',[HomeController::class,'contact'])->name('contact');
+Route::get('/clear-cache', function() {
+    Artisan::call('cache:clear');
+    echo "Cache is cleared<br>";
+    Artisan::call('route:clear');
+    echo "route cache is cleared<br>";
+    Artisan::call('config:clear');
+    echo "config is cleared<br>";
+    Artisan::call('view:clear');
+    echo "view is cleared<br>";
+});
+
+Route::get('/',[HomeController::class,'home'])->name('home');
+Route::post('save-contact-details',[HomeController::class,'save_contact_details'])->name('save-contact-details');
+Route::get('contact',[HomeController::class,'contact'])->name('contact');
 Route::get('website_development',[HomeController::class,'website_development'])->name('website_development');
 Route::get('mobile_application_development',[HomeController::class,'mobile_application_development'])->name('mobile_application_development');
 Route::get('ui_ux_graphic_design',[HomeController::class,'ui_ux_graphic_design'])->name('ui_ux_graphic_design');
@@ -28,3 +41,6 @@ Route::get('quality_assurance',[HomeController::class,'quality_assurance'])->nam
 Route::get('portfolio',[HomeController::class,'portfolio'])->name('portfolio');
 Route::get('blog',[HomeController::class,'blog'])->name('blog');
 Route::get('about',[HomeController::class,'about'])->name('about');
+
+Route::get('admin-login', [LoginController::class, 'login'])->name('admin-login');
+Route::post('check-login', [LoginController::class, 'check_login'])->name('check-login');

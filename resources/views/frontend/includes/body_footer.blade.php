@@ -5,22 +5,15 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-column footer-about">
-                        <h3 class="footer-title">About Hotel</h3>
+                        <h3 class="footer-title">About Vibramade</h3>
                         <p class="footer-about-text">We keep our process simple, transparent, and customer-focused. We
                             avoid buzzwords and bullshit – we spend our energy instead focused on creating best-in-class
                             user experiences that translate into the things that matter.</p>
-
-{{--                        <div class="footer-language"><i class="lni ti-world"></i>--}}
-{{--                            <select onchange="location = this.value;">--}}
-{{--                                <option value="http://duruthemes.com/">English</option>--}}
-{{--                                <option value="http://duruthemes.com/">German</option>--}}
-{{--                            </select>--}}
-{{--                        </div>--}}
                     </div>
                 </div>
                 <div class="col-md-3 offset-md-1">
                     <div class="footer-column footer-explore clearfix">
-                        <h3 class="footer-title">Explore</h3>
+                        <h3 class="footer-title">Pages</h3>
                         <ul class="footer-explore-list list-unstyled">
                             <li><a href="{{route('home')}}">Home</a></li>
                             <li><a href="#">Services</a></li>

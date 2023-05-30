@@ -2,18 +2,18 @@
 return [
 
     'PROJECT_NAME' => 'Vibramade',
-    'EMAIL' => 'Vibramade@gmail.com',
+    'EMAIL' => 'vibramade@gmail.com',
     'PHONE' => '+91 1234567890',
     'ADDRESS_LINE1' => '1049-1051, Silver Business Point, VIP Cir,',
     'ADDRESS_LINE2' => 'near Royal Square, Uttran, Surat, Gujarat 394101',
     'SHORT_DESCTION' => 'Custom Development for Modern Business Success',
-    'COPYRIGHTLINE' => '<p class="footer-bottom-copy-right">© Copyright 2023 by <a href="#">DuruThemes.com</a></p>',
+    'COPYRIGHTLINE' => '<p class="footer-bottom-copy-right">© Copyright 2023 by <a href="#">vibramade@gmail.com</a></p>',
 
     'slider' => [
         array(
             'line1' => 'The Ultimate Luxury Experience',
             'line2' => 'Enjoy The Best Moments of Life',
-            'image' => 'frontend/img/course/h1.jpg',
+            'image' => 'frontend/img/img1.jpg',
         ),
         array(
             'line1' => 'Luxury Hotel & Best Resort',
@@ -23,7 +23,7 @@ return [
         array(
             'line1' => 'Unique Place to Relax & Enjoy',
             'line2' => 'The Perfect Base For You',
-            'image' => 'frontend/img/course/h3.jpg',
+            'image' => 'frontend/img/img3.jpg',
         ),
     ],
     'course' => [

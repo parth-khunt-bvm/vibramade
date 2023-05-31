@@ -40,9 +40,9 @@ class HomeController extends Controller
     }
 
     function contact(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
+        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Contact";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Contact";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Contact";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -59,9 +59,9 @@ class HomeController extends Controller
     }
 
     function website_development(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
+        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Website Development";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Website Development";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Website Development";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -78,9 +78,9 @@ class HomeController extends Controller
     }
 
     function mobile_application_development(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
+        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Mobile Application Development";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Mobile Application Development";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Mobile Application Development";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -97,9 +97,9 @@ class HomeController extends Controller
     }
 
     function ui_ux_graphic_design(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
+        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || UI/UX/Graphic Design";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || UI/UX/Graphic Design";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || UI/UX/Graphic Design";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -116,9 +116,9 @@ class HomeController extends Controller
     }
 
     function custom_software_development(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
+        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Custom Software Development";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Custom Software Development";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Custom Software Development";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -135,9 +135,9 @@ class HomeController extends Controller
     }
 
     function quality_assurance(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
+        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Quality Assurance";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Quality Assurance";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Quality Assurance";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -154,9 +154,9 @@ class HomeController extends Controller
     }
 
     function portfolio(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
+        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Portfolio";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Portfolio";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Portfolio";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -173,9 +173,9 @@ class HomeController extends Controller
     }
 
     function blog(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
+        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Blog";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Blog";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Blog";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -192,9 +192,9 @@ class HomeController extends Controller
     }
 
     function about(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Home";
+        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " || About";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || About";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || About";
         $data['css'] = array(
         );
         $data['plugincss'] = array(

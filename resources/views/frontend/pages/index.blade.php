@@ -76,12 +76,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="section-subtitle"><span>Best Prices</span></div>
+                    <div class="section-subtitle"><span>VIBRAMADE</span></div>
                     <div class="section-title"><span>Extra Services</span></div>
-                    <p class="color-2">The best prices for your relaxing vacation. The utanislen quam nestibulum ac
-                        quame odion elementum sceisue the aucan.</p>
-                    <p class="color-2">Orci varius natoque penatibus et magnis disney parturient monte nascete ridiculus
-                        mus nellen etesque habitant morbine.</p>
+                    <p class="color-2">We are a leading software development company that offers top-rated Software
+                        Development Services due to our vast experience, team of skilled professionals, key business
+                        insights, and a dedicated working process</p>
                     <div class="reservations mb-30">
                         <div class="icon"><span class="flaticon-call"></span></div>
                         <div class="text">

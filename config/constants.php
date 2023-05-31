@@ -11,12 +11,12 @@ return [
 
     'slider' => [
         array(
-            'line1' => 'Vibramade',
+            'line1' => 'We Provide Best Technology Service to our Customers. Web development, Mobile app development etc.. ',
             'line2' => 'Vibramade',
             'image' => 'frontend/img/img1.jpg',
         ),
         array(
-            'line1' => 'Vibramade',
+            'line1' => 'ViNeed a Website? an App? or Software Solution? We have got you covered..bramade',
             'line2' => 'Vibramade',
             'image' => 'frontend/img/course/h2.jpg',
         ),

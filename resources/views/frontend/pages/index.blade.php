@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="col col-md-6 animate-box" data-animate-effect="fadeInUp">
-                    <img src="frontend/img/home1.avif" alt="" class="mt-175 mb-30">
+                    <img src="frontend/img/web.png" alt="" class="mt-175 mb-30">
                 </div>
             </div>
         </div>

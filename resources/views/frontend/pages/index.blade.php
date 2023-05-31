@@ -112,7 +112,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-subtitle">Our Services</div>
-                    <div class="section-title">Hotel Facilities</div>
+                    <div class="section-title">Services</div>
                 </div>
             </div>
             <div class="row">
@@ -126,7 +126,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="single-facility animate-box" data-animate-effect="fadeInUp">
-                        <span class="flaticon-envelope"></span>
+                        <span class=""><i class='fa fa-wordpress'></i></span>
                         <h5>WordPress Development</h5>
                         <p>We specializing in custom themes, plugins, support, security, Multisite, BuddyPress, and other feature of WP</p>
                         <div class="facility-shape"><span class="flaticon-swimming"></span></div>
@@ -144,7 +144,7 @@
 
                 <div class="col-md-4">
                     <div class="single-facility animate-box" data-animate-effect="fadeInUp">
-                        <span class="flaticon-shopping-cart"></span>
+                        <span class=""><i class='fa fa-etsy'></i></span>
                         <h5>E-Commerece Develoment</h5>
                         <p>Deliver users an enjoyable and secure online shopping experience with our E-commerce solutions.</p>
                         <div class="facility-shape"><span class="flaticon-car"></span></div>
@@ -154,7 +154,7 @@
 
                 <div class="col-md-4">
                     <div class="single-facility animate-box" data-animate-effect="fadeInUp">
-                        <span class="flaticon-menu"></span>
+                        <span class=""><i class='fa fa-external-link'></i></span>
                         <h5>Website Maintenance</h5>
                         <p>Website maintenance is the act of regularly checking your website for issues and mistakes and keeping it updated.</p>
                         <div class="facility-shape"><span class="flaticon-wifi"></span></div>

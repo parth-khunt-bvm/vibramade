@@ -11,18 +11,18 @@ return [
 
     'slider' => [
         array(
-            'line1' => 'The Ultimate Luxury Experience',
-            'line2' => 'Enjoy The Best Moments of Life',
+            'line1' => 'Vibramade',
+            'line2' => 'Vibramade',
             'image' => 'frontend/img/img1.jpg',
         ),
         array(
-            'line1' => 'Luxury Hotel & Best Resort',
-            'line2' => 'Enjoy a Luxury Experience',
+            'line1' => 'Vibramade',
+            'line2' => 'Vibramade',
             'image' => 'frontend/img/course/h2.jpg',
         ),
         array(
-            'line1' => 'Unique Place to Relax & Enjoy',
-            'line2' => 'The Perfect Base For You',
+            'line1' => 'Vibramade',
+            'line2' => 'Vibramade',
             'image' => 'frontend/img/img3.jpg',
         ),
     ],

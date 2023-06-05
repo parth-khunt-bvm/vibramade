@@ -3,9 +3,9 @@ return [
 
     'PROJECT_NAME' => 'Vibramade',
     'EMAIL' => 'vibramade@gmail.com',
-    'PHONE' => '+91 1234567890',
-    'ADDRESS_LINE1' => '1049-1051, Silver Business Point, VIP Cir,',
-    'ADDRESS_LINE2' => 'near Royal Square, Uttran, Surat, Gujarat 394101',
+    'PHONE' => '+91 7046883773',
+    'ADDRESS_LINE1' => 'Block-B, A-308, ICC building, Majura Gate,',
+    'ADDRESS_LINE2' => 'Surat, Gujarat 395008',
     'SHORT_DESCTION' => 'Custom Development for Modern Business Success',
     'COPYRIGHTLINE' => '<p class="footer-bottom-copy-right">© Copyright 2023 by <a href="#">vibramade@gmail.com</a></p>',
 

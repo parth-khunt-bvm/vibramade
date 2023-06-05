@@ -15,20 +15,16 @@
     <!-- Contact -->
     <section class="contact section-padding">
         <div class="container">
-            <div class="row mb-90">
+            <div class="row">
                 <div class="col-md-6 mb-60">
-                    <h3>Are You Ready to Accelerate Your Business?</h3>
-                    <p>Our expert in-house team utilizes cutting-edge technologies and platforms like WordPress, Joomla,
-                        Drupal, Laravel, Magento, Core PHP, Angular, React JS, Node JS, React Native, WooCommerce, and
-                        more to complement your business objectives and goals. Being an eminent web development company
-                        with many years of experience, our professionals are committed to providing innovative web
-                        development solutions, ranging from brand research to conceptualization, crafting UX/UI design,
-                        and overall marketing plan.</p>
-                    <P>We are industry-leading experts and will be working with you throughout the process of converting
-                        your vision into reality and establishing a profitable business.</P>
-                    <P>We keep our process simple, transparent, and customer-focused. We avoid buzzwords and bullshit –
-                        we spend our energy instead focused on creating best-in-class user experiences that translate
-                        into the things that matter.</P>
+                    <p>Welcome to Vibramade. A full-service digital agency. · We create bespoke digital designs, platforms, and products in Various technologies.</p>
+                    <h4>Our specialties include the following:</h4>
+                    <ul>
+                        <li>Digital Strategy and Technology Consulting</li>
+                        <li> Accelerating go-to-market strategies with rapid application development frameworks.</li>
+                        <li> Cloud & Managed Services</li>
+                    </ul>
+                    <p>We follow good coding standards and follow strict coding patterns as this would reflect into growth of our employees as well as the company. We have good work environment and a great team.</p>
                     <div class="reservations mb-30">
                         <div class="icon"><span class="flaticon-call"></span></div>
                         <div class="text">

@@ -6,9 +6,7 @@
                 <div class="col-md-4">
                     <div class="footer-column footer-about">
                         <h3 class="footer-title">About Vibramade</h3>
-                        <p class="footer-about-text">We keep our process simple, transparent, and customer-focused. We
-                            avoid buzzwords and bullshit – we spend our energy instead focused on creating best-in-class
-                            user experiences that translate into the things that matter.</p>
+                        <p class="footer-about-text">Web Development, App Development, IT Services, React Native, ReactJs, Android, IOS, Python, QA, Ruby on Rails, NodeJs, and .net</p>
                     </div>
                 </div>
                 <div class="col-md-3 offset-md-1">
@@ -18,7 +16,7 @@
                             <li><a href="{{route('home')}}">Home</a></li>
                             <li><a href="#">Services</a></li>
                             <li><a href="{{route("portfolio")}}">Portfolio</a></li>
-                            <li><a href="{{route("blog")}}">Blog</a></li>
+{{--                            <li><a href="{{route("blog")}}">Blog</a></li>--}}
                             <li><a href="{{route("about")}}">About</a></li>
                             <li><a href="{{route('contact')}}">Contact</a></li>
                         </ul>
@@ -33,11 +31,7 @@
                             <p class="footer-contact-mail">{{ Config::get( 'constants.EMAIL' ) }}</p>
                         </div>
                         <div class="footer-about-social-list">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                            <a href="#"><i class="ti-twitter"></i></a>
-                            <a href="#"><i class="ti-youtube"></i></a>
-                            <a href="#"><i class="ti-facebook"></i></a>
-                            <a href="#"><i class="ti-pinterest"></i></a>
+                            <a href="https://www.linkedin.com/company/vibramade/?viewAsMember=true"><i class="ti-twitter"></i></a>
                         </div>
                     </div>
                 </div>

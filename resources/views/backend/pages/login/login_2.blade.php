@@ -11,20 +11,20 @@
 
                 <div class="d-flex flex-center mb-10">
                     <a href="javascript:;">
-                        <img src="{{  asset('upload/systemsetting/logo.png') }}" class="max-h-110px" alt="" style="width: 250px;"/>
+                        <img src="{{  asset('frontend/img/logo-home.png') }}" class="max-h-110px" alt="" style="width: 250px;"/>
                     </a>
                 </div>
 
                 <!--begin::Login Sign in form-->
                 <div class="login-signin">
-                    
-                    <div class="mb-10 text-center">                        
+
+                    <div class="mb-10 text-center">
                         <h3>Login Here</h3>
                         <div class="text-muted font-weight-bold">Enter your details to login to your account</div>
                     </div>
 
                     <form class="form"  id="login-form" method="POST" enctype="multipart/form-data" action="{{ route('check-login') }}">@csrf
-                        
+
                         <div class="form-group">
                             <input class="form-control form-control-solid  py-7 px-6" type="text" name="email" placeholder="Email" autocomplete="off" />
                         </div>
@@ -34,12 +34,12 @@
                         </div>
 
                         <hr>
-                        
+
                         <div class="form-group text-center mt-10">
                             <button id="kt_login_signin_submit" class="btn btn-primary btn-outline-primary btn-block">Sign In</button>
                         </div>
 
-                    </form>                                     
+                    </form>
 
                 </div>
                 <!--end::Login Sign in form-->

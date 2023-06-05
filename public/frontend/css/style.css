@@ -835,6 +835,7 @@ color: #aa8453;
     padding-top: 0;
     padding-bottom: 0;
     height: 100px;
+    background-color: white;
 }
 .navbar-toggler-icon {
     background-image: none;
@@ -847,7 +848,7 @@ color: #aa8453;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #fff;
+    color: #222;
     margin: 1px;
     letter-spacing: 3px;
     text-transform: uppercase;

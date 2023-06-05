@@ -34,7 +34,7 @@
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="{{route("portfolio")}}">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route("blog")}}">Blog</a></li>
+{{--                <li class="nav-item"><a class="nav-link" href="{{route("blog")}}">Blog</a></li>--}}
                 <li class="nav-item"><a class="nav-link" href="{{route("about")}}">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route("contact")}}">Contact</a></li>
             </ul>

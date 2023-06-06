@@ -13,17 +13,17 @@ return [
         array(
             'line1' => 'We Provide Best Technology Service to our Customers. Web development, Mobile app development etc.. ',
             'line2' => 'Vibramade',
-            'image' => 'frontend/img/img1.jpg',
+            'image' => 'frontend/img/img11.jpeg',
         ),
         array(
             'line1' => 'ViNeed a Website? an App? or Software Solution? We have got you covered..bramade',
             'line2' => 'Vibramade',
-            'image' => 'frontend/img/course/h2.jpg',
+            'image' => 'frontend/img/phone.jpg',
         ),
         array(
             'line1' => 'Vibramade',
             'line2' => 'Vibramade',
-            'image' => 'frontend/img/img3.jpg',
+            'image' => 'frontend/img/Design.jpg',
         ),
     ],
     'course' => [

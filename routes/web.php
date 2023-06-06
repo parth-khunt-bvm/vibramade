@@ -39,7 +39,7 @@ Route::get('ui_ux_graphic_design',[HomeController::class,'ui_ux_graphic_design']
 Route::get('custom_software_development',[HomeController::class,'custom_software_development'])->name('custom_software_development');
 Route::get('quality_assurance',[HomeController::class,'quality_assurance'])->name('quality_assurance');
 Route::get('portfolio',[HomeController::class,'portfolio'])->name('portfolio');
-Route::get('blog',[HomeController::class,'blog'])->name('blog');
+//Route::get('blog',[HomeController::class,'blog'])->name('blog');
 Route::get('about',[HomeController::class,'about'])->name('about');
 
 Route::get('admin-login', [LoginController::class, 'login'])->name('admin-login');

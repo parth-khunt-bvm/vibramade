@@ -1,4 +1,6 @@
 @extends('frontend.layout.app')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 @section('content')
 
     <!-- Header Banner -->
@@ -15,7 +17,7 @@
     <!-- Contact -->
     <section class="contact section-padding">
         <div class="container">
-            <div class="row mb-90">
+            <div class="row">
                 <div class="col-md-6 mb-60">
                     <h3>Let’s give your business what it needs to grow.</h3>
                     <p>As a leading web development firm, we provide experienced consultants, designers, and developers to take your online presence to the next level. </p>
@@ -83,38 +85,7 @@
             </div>
             <!-- Map Section -->
             <div class="row">
-                <!-- <div class="col-md-12 map animate-box" data-animate-effect="fadeInUp"> -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.2740587730145!2d72.82017327605729!3d21.181269282521377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e6be4ccc641%3A0xd07b5543f06ee5fc!2sICC%20Complex%20building!5e0!3m2!1sen!2sin!4v1685967857169!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <!-- </div> -->
-            </div>
-        </div>
-    </section>
-    <!-- Clients -->
-    <section class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="owl-carousel owl-theme">
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/1.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/2.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/3.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/4.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/5.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/6.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.274196716918!2d72.82055951744384!3d21.18126380000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409794731bd7aacb%3A0xf376382e55bcceb2!2sVIBRAMADE!5e0!3m2!1sen!2sin!4v1685517261000!5m2!1sen!2sin" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>

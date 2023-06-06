@@ -2,7 +2,7 @@
 return [
 
     'PROJECT_NAME' => 'Vibramade',
-    'EMAIL' => 'vibramade@gmail.com',
+    'EMAIL' => 'info@vibramade.com',
     'PHONE' => '+91 7046883773',
     'ADDRESS_LINE1' => 'Block-B, A-308, ICC building, Majura Gate,',
     'ADDRESS_LINE2' => 'Surat, Gujarat 395008',

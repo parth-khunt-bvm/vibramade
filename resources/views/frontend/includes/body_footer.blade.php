@@ -31,7 +31,7 @@
                             <p class="footer-contact-mail">{{ Config::get( 'constants.EMAIL' ) }}</p>
                         </div>
                         <div class="footer-about-social-list">
-                            <a href="https://www.linkedin.com/company/vibramade/?viewAsMember=true"><i class="ti-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/vibramade/?viewAsMember=true"><i class="ti-linkedIN"></i></a>
                         </div>
                     </div>
                 </div>

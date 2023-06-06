@@ -1,4 +1,6 @@
 @extends('frontend.layout.app')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 @section('content')
     <!-- Header Banner -->
     <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="3"
@@ -46,14 +48,6 @@
                 <!-- Sidebar -->
                 <div class="col-md-4">
                     <div class="news2-sidebar row">
-                        <div class="col-md-12">
-                            <div class="widget search">
-                                <form>
-                                    <input type="text" name="search" placeholder="Type here ...">
-                                    <button type="submit"><i class="ti-search" aria-hidden="true"></i></button>
-                                </form>
-                            </div>
-                        </div>
                         <div class="col-md-12">
                             <div class="widget">
                                 <div class="widget-title">

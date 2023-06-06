@@ -10,4 +10,5 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow&amp;family=Barlow+Condensed&amp;family=Gilda+Display&amp;display=swap">
     <link rel="stylesheet" href="frontend/css/plugins.css" />
     <link rel="stylesheet" href="frontend/css/style.css" />
+
 </head>

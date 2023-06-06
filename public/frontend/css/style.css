@@ -821,7 +821,6 @@ color: #aa8453;
     color: #fff;
 }
 
-
 /* ======= Navbar style ======= */
 .navbar {
     position: absolute;
@@ -3886,7 +3885,7 @@ button.mfp-arrow {
     position: relative;
     background: #f8f5f0;
     padding: 45px;
-    margin-bottom: -75px;
+    margin-bottom: 45px;
 }
 .booking-box .head-box h6 {
     font-size: 15px;

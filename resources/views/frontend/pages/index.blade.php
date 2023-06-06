@@ -35,7 +35,6 @@
         </div>
     </header>
 
-    <!-- About -->
     <section class="about section-padding">
         <div class="container">
             <div class="row">
@@ -71,7 +70,6 @@
         </div>
     </section>
 
-    <!-- Pricing -->
     <section class="pricing section-padding bg-blck">
         <div class="container">
             <div class="row">
@@ -105,7 +103,6 @@
         </div>
     </section>
 
-    <!-- Facilties -->
     <section class="facilties section-padding">
         <div class="container">
             <div class="row">
@@ -170,7 +167,7 @@
             </div>
         </div>
     </section>
-    <!-- Reservation & Booking Form -->
+
     <section class="testimonials">
         <div class="background bg-img bg-fixed section-padding pb-0" data-background="frontend/img/img1.jpg"
              data-overlay-dark="2">
@@ -242,35 +239,6 @@
                                     </div>
                                 </form>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Clients -->
-    <section class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="owl-carousel owl-theme">
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/1.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/2.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/3.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/4.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/5.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="frontend/img/clients/6.png" alt=""></a>
                         </div>
                     </div>
                 </div>

@@ -25,7 +25,7 @@
         </div>
         <!-- slider reservation -->
         <div class="reservation">
-            <a href="tel:8551004444">
+            <a href="#">
                 <div class="icon d-flex justify-content-center align-items-center">
                     <i class="flaticon-call"></i>
                 </div>
@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="col col-md-6 animate-box" data-animate-effect="fadeInUp">
-                    <img src="frontend/img/web.png" alt="" class="mt-175 mb-30">
+                    <img src="frontend/img/Vibramade4.png" alt="" class="mt-175 mb-30">
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
                         <div class="icon"><span class="flaticon-call"></span></div>
                         <div class="text">
                             <p class="color-2">For information</p> <a
-                                href="tel:855-100-4444">{{ Config::get( 'constants.PHONE' ) }}</a>
+                                href="#">{{ Config::get( 'constants.PHONE' ) }}</a>
                         </div>
                     </div>
                 </div>

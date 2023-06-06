@@ -13,115 +13,107 @@ return [
         array(
             'line1' => 'We Provide Best Technology Service to our Customers. Web development, Mobile app development etc.. ',
             'line2' => 'Vibramade',
-            'image' => 'frontend/img/img11.jpeg',
+            'image' => 'frontend/img/Vibramade1.jpeg',
         ),
         array(
             'line1' => 'ViNeed a Website? an App? or Software Solution? We have got you covered..bramade',
             'line2' => 'Vibramade',
-            'image' => 'frontend/img/phone.jpg',
+            'image' => 'frontend/img/Vibramade2.jpg',
         ),
         array(
-            'line1' => 'Vibramade',
+            'line1' => 'Software Development Company In India',
             'line2' => 'Vibramade',
-            'image' => 'frontend/img/Design.jpg',
+            'image' => 'frontend/img/Vibramade3.jpg',
         ),
     ],
     'course' => [
         array(
             'name' => 'Full Stack Development',
             'line2' => '',
-            'image' => 'frontend/img/course/full-stack.png',
+            'image' => 'frontend/img/course/Vibramade1.png',
         ),
         array(
             'name' => 'Web Development',
             'line2' => '',
-            'image' => 'frontend/img/course/web-development.webp',
+            'image' => 'frontend/img/course/Vibramade2.webp',
         ),
         array(
             'name' => 'UI/UX & Graphics',
             'line2' => '',
-            'image' => 'frontend/img/course/ui-ux.avif',
+            'image' => 'frontend/img/course/Vibramade3.avif',
         ),
         array(
             'name' => 'React JS',
             'line2' => '',
-            'image' => 'frontend/img/course/ReactJS.jpg',
+            'image' => 'frontend/img/course/Vibramade4.jpg',
         ),
         array(
             'name' => 'Node JS',
             'line2' => '',
-            'image' => 'frontend/img/course/nodejs.png',
+            'image' => 'frontend/img/course/Vibramade5.png',
         ),
         array(
             'name' => 'React Native',
             'line2' => '',
-            'image' => 'frontend/img/course/ReactNative.png',
+            'image' => 'frontend/img/course/Vibramade6.png',
         ),
         array(
             'name' => 'Laravel',
             'line2' => '',
-            'image' => 'frontend/img/course/laravel.png',
+            'image' => 'frontend/img/course/Vibramade7.png',
         ),
         array(
             'name' => 'Web Design',
             'line2' => '',
-            'image' => 'frontend/img/course/web-design.png',
+            'image' => 'frontend/img/course/Vibramade8.png',
         ),
         array(
             'name' => 'PHP',
             'line2' => '',
-            'image' => 'frontend/img/course/php.png',
+            'image' => 'frontend/img/course/Vibramade9.png',
         ),
         array(
             'name' => 'Android',
             'line2' => '',
-            'image' => 'frontend/img/course/android.png',
+            'image' => 'frontend/img/course/Vibramade10.png',
         ),
     ],
     'portfolio' => [
         array(
-            'image' => 'frontend/img/portfolio/p1.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade1.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p2.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade2.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p3.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade3.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p4.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade4.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p5.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade5.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p6.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade6.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p7.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade7.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p8.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade8.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p9.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade9.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p10.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade10.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p11.jpg',
+            'image' => 'frontend/img/portfolio/Vibramade11.jpg',
         ),
         array(
-            'image' => 'frontend/img/portfolio/p12.jpg',
-        ),
-
-        array(
-            'image' => 'frontend/img/portfolio/p14.jpg',
-        ),
-
-        array(
-            'image' => 'frontend/img/portfolio/p16.png',
+            'image' => 'frontend/img/portfolio/Vibramade12.jpg',
         ),
     ]
 

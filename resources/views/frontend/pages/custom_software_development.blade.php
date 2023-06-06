@@ -4,7 +4,7 @@
 @section('content')
     <!-- Header Banner -->
     <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="3"
-         data-background="frontend/img/course/softwa.jpg">
+         data-background="frontend/img/course/Vibramade14.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-left caption mt-90">

@@ -30,13 +30,6 @@
                 <div class="col-md-4">
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="{{ $value['image'] }}" alt=""> </div>
-                        <div class="con">
-                            <div class="row facilities">
-                                <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="{{ $value['image'] }}">Details <i class="ti-arrow-right"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 @endforeach

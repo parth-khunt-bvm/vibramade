@@ -169,7 +169,7 @@
     </section>
 
     <section class="testimonials">
-        <div class="background bg-img bg-fixed section-padding pb-0" data-background="frontend/img/img1.jpg"
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="frontend/img/Vibramade5.jpg"
              data-overlay-dark="2">
             <div class="container">
                 <div class="row">

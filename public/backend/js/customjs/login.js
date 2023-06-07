@@ -49,9 +49,49 @@ var Login = function(){
         });
     }
 
+
+
+
+    var vibranade = function(){        
+        var form = $('#form-vibramade');
+        var rules = {
+            name: {required: true},
+            email: {required: true,email:true},
+            phone: {required: true,number: true},
+            subject: {required: true},
+            message: {required: true}
+        };
+
+        var message = {
+            name : {
+                required : "Please enter name"
+            },
+            email :{
+                required : "Please enter your email address",
+                email: "Please enter valid email address"
+            },
+            phone : {
+                required : "Please enter phone number",
+                number : "Please enter a valid phone number"
+            },
+            subject : {
+                required : "Please enter subject"
+            },
+            message : {
+                required : "Please enter text message"
+            },
+        }
+        handleFormValidateWithMsg(form, rules,message, function(form) {
+            handleAjaxFormSubmit(form,true);
+        });
+    }
+    
     return {
         init:function(){
             validation();
+        },
+        form:function(){
+            vibranade();
         }
     }
 

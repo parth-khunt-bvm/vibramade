@@ -938,7 +938,7 @@ function handleFormValidate(form, rules, submitCallback, showToaster) {
 }
 
 function handleFormValidateWithMsg(form, rules, messages, submitCallback, showToaster) {
-
+    
     var error = $('.alert-danger', form);
     var success = $('.alert-success', form);
     form.validate({
@@ -970,6 +970,7 @@ function handleFormValidateWithMsg(form, rules, messages, submitCallback, showTo
         success: function(label) {
             label.closest('.form-control').removeClass('has-error'); // set success class to the control group
             label.parent().find('.select2').removeClass('has-error');
+            label.parent().find('.help-block').remove();
         },
         messages: messages,
 

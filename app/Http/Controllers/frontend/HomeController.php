@@ -15,14 +15,22 @@ class HomeController extends Controller
         $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Vibramade is a professional Website Design & Software Development Company in Surat, Gujarat, India offers Web designing, Web Development, Software Development, E-Commerce Solution, Inventory stock management software services in Surat, Gujarat, India.";
         $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Website designing, software development, E-commerce website development, website designing company, web development company, CRM Software Development, ERP Software development company in Surat, Gujarat, India.";
         $data['css'] = array(
+            'toastr/toastr.min.css'
         );
         $data['plugincss'] = array(
         );
         $data['pluginjs'] = array(
+            'toastr/toastr.min.js',
+            'plugins/validate/jquery.validate.min.js',
         );
         $data['js'] = array(
+            'comman_function.js',
+            'ajaxfileupload.js',
+            'jquery.form.min.js',
+            'login.js',
         );
         $data['funinit'] = array(
+            'Login.form()'
         );
         $data['silder'] = Config::get( 'constants.slider' );
         $data['course'] = Config::get( 'constants.course' );
@@ -30,13 +38,20 @@ class HomeController extends Controller
     }
 
     function save_contact_details(Request $request){
+        
         $objContact = new Contact();
         $result = $objContact->save_contact_details($request->all());
-        if($result)
-            $messgae = "Your details succesfully sent to admin.We'll contact you soon";
-        else
-            $messgae = "Something goes to wrong";
-        return Redirect::back()->withErrors(['msg' => 'Your details succesfully sent!']);
+        if($result){
+            $return['status'] = 'success';
+            $return['message'] = 'Your Message Was Sent Successfully. Thanks.';
+            $return['redirect'] = route('home');
+        } else{
+            $return['status'] = 'error';
+            $return['jscode'] = '$(".submitbtn:visible").removeAttr("disabled");$("#loader").hide();';
+            $return['message'] = 'Invalid Login Id/Password';
+        }
+        return json_encode($return);
+        exit();
     }
 
     function contact(){
@@ -44,14 +59,22 @@ class HomeController extends Controller
         $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Contact Vibramade website designing company Surat provide profession web designing services, E commerce web development, Software development like CRM, ERP, MLM, Online Examination, Stock management and SEO services across Surat city and near by area of Gujarat.";
         $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Website design company, web development company, web design & development company, E-commerce web design company, Software development company, CRM Software Development Company, ERP Software development company, MLM Software development company, web development company, Website design company in Surat, Gujarat, India.";
         $data['css'] = array(
+            'toastr/toastr.min.css'
         );
         $data['plugincss'] = array(
         );
         $data['pluginjs'] = array(
+            'toastr/toastr.min.js',
+            'plugins/validate/jquery.validate.min.js',
         );
         $data['js'] = array(
+            'comman_function.js',
+            'ajaxfileupload.js',
+            'jquery.form.min.js',
+            'login.js',
         );
         $data['funinit'] = array(
+            'Login.form()'
         );
         $data['silder'] = Config::get( 'constants.slider' );
         $data['course'] = Config::get( 'constants.course' );

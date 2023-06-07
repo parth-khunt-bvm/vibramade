@@ -18,3 +18,28 @@
 <script src="frontend/js/smooth-scroll.min.js"></script>
 <script src="frontend/js/custom.js"></script>
 
+<script src="{{  asset('backend/plugins/custom/prismjs/prismjs.bundle.js') }}"></script>
+<script src="{{  asset('backend/js/scripts.bundle.js') }}"></script>
+
+
+@if (!empty($pluginjs))
+    @foreach ($pluginjs as $value)
+        <script src="{{ asset('backend/js/'.$value) }}" type="text/javascript"></script>
+    @endforeach
+@endif
+
+@if (!empty($js))
+    @foreach ($js as $value)
+        <script src="{{ asset('backend/js/customjs/'.$value) }}" type="text/javascript"></script>
+    @endforeach
+@endif
+
+<script>
+    jQuery(document).ready(function () {
+        @if (!empty($funinit))
+            @foreach ($funinit as $value)
+            {{  $value }}
+            @endforeach
+            @endif
+    });
+</script>

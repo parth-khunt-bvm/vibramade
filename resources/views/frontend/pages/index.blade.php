@@ -1,7 +1,4 @@
 @extends('frontend.layout.app')
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 @section('content')
 
     <!-- Slider -->
@@ -188,7 +185,7 @@
                             </div>
                             <div class="booking-inner clearfix">
                                 <form action="{{ route('save-contact-details') }}" method="post"
-                                      class="form1 clearfix">
+                                      class="form1 clearfix" id="form-vibramade">
                                     @csrf
                                     <div class="row">
                                         <div class="col-md-12">

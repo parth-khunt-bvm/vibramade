@@ -1,5 +1,5 @@
 @extends('frontend.layout.app')
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 @section('content')
 
@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-md-5 mb-30 offset-md-1">
                     <h3>Get in touch</h3>
-                    <form action="{{ route('save-contact-details') }}" method="post" class="contact__form">
+                    <form action="{{ route('save-contact-details') }}" method="post" class="contact__form" id="form-vibramade">
                         @csrf
                         @if(Session::has('success'))
                             <div class="alert alert-primary mt-2 successMessage">
@@ -62,19 +62,19 @@
                         <!-- form elements -->
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input name="name" type="text" placeholder="Your Name *" required>
+                                <input name="name" type="text" placeholder="Your Name *">
                             </div>
                             <div class="col-md-6 form-group">
-                                <input name="email" type="email" placeholder="Your Email *" required>
+                                <input name="email" type="email" placeholder="Your Email *">
                             </div>
                             <div class="col-md-6 form-group">
-                                <input name="phone" type="text" placeholder="Your Number *" required>
+                                <input name="phone" type="text" placeholder="Your Number *">
                             </div>
                             <div class="col-md-6 form-group">
-                                <input name="subject" type="text" placeholder="Subject *" required>
+                                <input name="subject" type="text" placeholder="Subject *">
                             </div>
                             <div class="col-md-12 form-group">
-                                <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
+                                <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *"></textarea>
                             </div>
                             <div class="col-md-12">
                                 <button type="submit" class="butn-dark2"><span>Send Message</span></button>

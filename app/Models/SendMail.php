@@ -18,7 +18,7 @@ class SendMail extends Model
         $mailData['subject'] = Config::get('constants.PROJECT_NAME');
         $mailData['attachment'] = array();
         $mailData['template'] ="emailtemplate.test";
-        $mailData['mailto'] = 'vinitkumardevani@gmail.com';
+        $mailData['mailto'] = 'sanjay.bvminfotech@gmail.com';
         $sendMail = new Sendmail();
         return $sendMail->sendSMTPMail($mailData);
     }
@@ -32,7 +32,7 @@ class SendMail extends Model
         $mailData['subject'] = Config::get('constants.PROJECT_NAME')." - Inquiry mail";
         $mailData['attachment'] = array();
         $mailData['template'] ="emailtemplate.contactMail";
-        $mailData['mailto'] = 'vinitkumardevani@gmail.com';
+        $mailData['mailto'] = 'sanjay.bvminfotech@gmail.com';
         $sendMail = new Sendmail();
         return $sendMail->sendSMTPMail($mailData);
     }

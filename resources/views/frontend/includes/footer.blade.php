@@ -22,6 +22,7 @@
 <script src="{{  asset('backend/js/scripts.bundle.js') }}"></script>
 
 
+
 @if (!empty($pluginjs))
     @foreach ($pluginjs as $value)
         <script src="{{ asset('backend/js/'.$value) }}" type="text/javascript"></script>

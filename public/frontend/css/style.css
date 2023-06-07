@@ -494,6 +494,9 @@ color: #aa8453;
     background: #aa8453;
 }
 
+.help-block {
+    color: red !important;
+}
 
 /* ======= Preloader style ======= */
 .preloader-bg,
@@ -502,7 +505,7 @@ color: #aa8453;
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #fff;
+    /* background: #fff; */
     z-index: 999999;
 }
 #preloader {

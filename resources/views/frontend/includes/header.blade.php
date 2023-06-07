@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow&amp;family=Barlow+Condensed&amp;family=Gilda+Display&amp;display=swap">
     <link rel="stylesheet" href="frontend/css/plugins.css" />
     <link rel="stylesheet" href="frontend/css/style.css" />
-
-    <link href="{{  asset('backend/css/style.css') }}" rel="stylesheet" type="text/css" />
     @if (!empty($css))
         @foreach ($css as $value)
             @if(!empty($value))
@@ -28,11 +26,4 @@
             @endif
         @endforeach
     @endif
-
-    <script>
-        var baseurl = "{{ asset('/') }}";
-        var date_formate = "dd-M-yyyy";
-        var decimal_point = "{{ Config::get('constants.DECIMAL_POINT') }}";
-    </script>
-
 </head>

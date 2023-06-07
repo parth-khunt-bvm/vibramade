@@ -221,77 +221,7 @@ function handleFormValidate(form, rules, submitCallback, showToaster) {
     })
 }
 
-function handleFormValidateWithMsg(form, rules, messages, submitCallback, showToaster) {
 
-    var error = $('.alert-danger', form);
-    var success = $('.alert-success', form);
-    form.validate({
-        errorElement: 'span', //default input error message container
-        errorClass: 'help-block', // default input error message class
-        focusInvalid: true, // do not focus the last invalid input
-        ignore: ":hidden",
-        rules: rules,
-        invalidHandler: function(event, validator) { //display error alert on form submit
-            success.hide();
-            error.show();
-
-            //            App.scrollTo(error, -200);
-            if (typeof showToaster !== 'undefined' && showToaster) {
-                Toastr.init('warning', 'Some fields are missing!.', '');
-            }
-            //            Toastr.init('warning', 'Some fields are missing!.', '');
-        },
-        highlight: function(element) { // hightlight error inputs
-            $(element)
-                .closest('.form-control').addClass('has-error'); // set error class to the control group
-            $(element).parent().find('.select2').addClass('has-error');
-        },
-        unhighlight: function(element) { // revert the change done by hightlight
-            $(element).parent().find('.select2').removeClass('has-error');
-            $(element)
-                .closest('.form-control').removeClass('has-error'); // set error class to the control group
-        },
-        success: function(label) {
-            label.closest('.form-control').removeClass('has-error'); // set success class to the control group
-            label.parent().find('.select2').removeClass('has-error');
-        },
-        messages: messages,
-
-        submitHandler: function(form) {
-
-            $(".submitbtn:visible").attr("disabled", "disabled");
-            $("#loader").show();
-            if (typeof submitCallback !== 'undefined' && typeof submitCallback == 'function') {
-                submitCallback(form);
-            } else {
-                handleAjaxFormSubmit(form);
-            }
-            return false;
-        },
-
-        errorPlacement: function(error, element) {
-            var elem = $(element);
-            if (elem.hasClass("select2-hidden-accessible")) {
-                element = $("#select2-" + elem.attr("id") + "-container").parent();
-                error.insertAfter(element);
-            } else {
-                if (elem.hasClass("radio-btn")) {
-                    element = elem.parent().parent();
-                    error.insertAfter(element);
-                } else {
-                    error.insertAfter(element);
-                }
-            }
-        },
-    });
-
-    $('.select2me', form).change(function() {
-        form.validate().element($(this)); //revalidate the chosen dropdown value and show error or success message for the input
-    });
-    $('.date-picker .form-control').change(function() {
-        form.validate().element($(this)); //revalidate the chosen dropdown value and show error or success message for the input
-    })
-}
 
 function gritter(title, text, sticky, time) {
     $.gritter.add({
@@ -938,7 +868,7 @@ function handleFormValidate(form, rules, submitCallback, showToaster) {
 }
 
 function handleFormValidateWithMsg(form, rules, messages, submitCallback, showToaster) {
-    
+
     var error = $('.alert-danger', form);
     var success = $('.alert-success', form);
     form.validate({
@@ -975,9 +905,7 @@ function handleFormValidateWithMsg(form, rules, messages, submitCallback, showTo
         messages: messages,
 
         submitHandler: function(form) {
-
-            $(".submitbtn:visible").attr("disabled", "disabled");
-            $("#loader").show();
+            $("#preloader").fadeIn();
             if (typeof submitCallback !== 'undefined' && typeof submitCallback == 'function') {
                 submitCallback(form);
             } else {

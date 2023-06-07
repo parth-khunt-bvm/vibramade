@@ -570,7 +570,7 @@ $(document).ready(function () {
 
 // Preloader
 $("#preloader").fadeOut(700);
-	$(".preloader-bg").delay(700).fadeOut(700);
+$(".preloader-bg").delay(700).fadeOut(700);
 	var wind = $(window);
 
 

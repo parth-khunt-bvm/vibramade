@@ -159,7 +159,7 @@
                                                 line-height:34px;
                                                 color:#000000;
                                                 min-width:700px"
-                                         src="{{assert('frontend/img/logo-home.png')}}"
+                                         src="{{asset('frontend/img/logo-home.png')}}"
                                          width="700"
                                          border="0"
                                          height="230">

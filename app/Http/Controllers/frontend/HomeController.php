@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\frontend;
 
 use App\Http\Controllers\Controller;
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Config;
 use App\Models\Contact;
+use App\Models\SendMail;
 use Redirect;
 
 class HomeController extends Controller
@@ -42,7 +44,8 @@ class HomeController extends Controller
         $objContact = new Contact();
         $result = $objContact->save_contact_details($request->all());
         if($result){
-            $return['Contact'] = $result;
+            $objSendmail = new SendMail();
+            $Sendmail = $objSendmail->sendContactMail($request->all());
             $return['status'] = 'success';
             $return['message'] = 'Your Message Was Sent Successfully. Thanks.';
             $return['redirect'] = route('home');
@@ -56,7 +59,7 @@ class HomeController extends Controller
     }
 
     function contact(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' );
+        $data['title'] = Config::get('constants.PROJECT_NAME');
         $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Contact Vibramade website designing company Surat provide profession web designing services, E commerce web development, Software development like CRM, ERP, MLM, Online Examination, Stock management and SEO services across Surat city and near by area of Gujarat.";
         $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Website design company, web development company, web design & development company, E-commerce web design company, Software development company, CRM Software Development Company, ERP Software development company, MLM Software development company, web development company, Website design company in Surat, Gujarat, India.";
         $data['css'] = array(
@@ -234,4 +237,15 @@ Software Testing | ";
         $data['portfolio'] = Config::get( 'constants.portfolio' );
         return view('frontend.pages.about',$data);
     }
+
+//    function send(){
+//        $details = [
+//            'title' => 'Mail from ItSolutionStuff.com',
+//            'body' => 'This is for testing email using smtp'
+//        ];
+//
+//        Mail::to('sanjay.bvminfotech@gmail.com')->send(new ContactMail($details));
+//
+//        dd("Email is Sent.");
+//    }
 }

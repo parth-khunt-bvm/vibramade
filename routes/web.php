@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\frontend\HomeController;
 use App\Http\Controllers\backend\LoginController;
@@ -44,3 +45,5 @@ Route::get('about',[HomeController::class,'about'])->name('about');
 
 Route::get('admin-login', [LoginController::class, 'login'])->name('admin-login');
 Route::post('check-login', [LoginController::class, 'check_login'])->name('check-login');
+
+Route::get('testing-mail', [LoginController::class, 'testingmail'])->name('testing-mail');

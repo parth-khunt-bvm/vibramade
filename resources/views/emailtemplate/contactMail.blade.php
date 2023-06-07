@@ -217,7 +217,7 @@
                                 <td style="font-family:'Open Sans', Arial, sans-serif;
                                                                              font-size:16px;
                                                                              line-height:30px;
-                                                                             color:#ffffff;"
+                                                                             color:#ffffff !important;"
                                     valign="top"
                                     align="center">
 

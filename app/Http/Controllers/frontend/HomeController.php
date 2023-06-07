@@ -38,17 +38,18 @@ class HomeController extends Controller
     }
 
     function save_contact_details(Request $request){
-        
+
         $objContact = new Contact();
         $result = $objContact->save_contact_details($request->all());
         if($result){
+            $return['Contact'] = $result;
             $return['status'] = 'success';
             $return['message'] = 'Your Message Was Sent Successfully. Thanks.';
             $return['redirect'] = route('home');
         } else{
             $return['status'] = 'error';
             $return['jscode'] = '$(".submitbtn:visible").removeAttr("disabled");$("#loader").hide();';
-            $return['message'] = 'Invalid Login Id/Password';
+            $return['message'] = 'Invalid';
         }
         return json_encode($return);
         exit();

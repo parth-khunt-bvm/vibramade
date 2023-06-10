@@ -24,7 +24,7 @@
 		<link href="{{  asset('backend/css/themes/layout/brand/dark.css') }}" rel="stylesheet" type="text/css" />
 		<link href="{{  asset('backend/css/themes/layout/aside/dark.css') }}" rel="stylesheet" type="text/css" />
 		<!--end::Layout Themes-->
-		<link rel="shortcut icon" href="{{  asset('upload/systemsetting/favicon-new.png') }}" />
+        <link rel="shortcut icon" href="frontend/img/logo-png.ico" />
         <link href="{{  asset('backend/css/style.css') }}" rel="stylesheet" type="text/css" />
 
 		<style>
@@ -32,7 +32,7 @@
 				--theme-color: #f4911e !important;
 			}
 		</style>
-		
+
         @if (!empty($css))
             @foreach ($css as $value)
                 @if(!empty($value))

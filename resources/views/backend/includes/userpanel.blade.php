@@ -63,7 +63,7 @@ if(file_exists( public_path().'/upload/userprofile/'.$data['userimage']) ){
 
             <div class="navi navi-spacer-x-0 p-0">
                 <!--begin::Item-->
-                <a href="{{ route('update-profile') }}" class="navi-item">
+                {{-- <a href="{{ route('update-profile') }}" class="navi-item">
                     <div class="navi-link">
                         <div class="symbol symbol-40 bg-light mr-3">
                             <div class="symbol-label">
@@ -85,11 +85,11 @@ if(file_exists( public_path().'/upload/userprofile/'.$data['userimage']) ){
 
                         </div>
                     </div>
-                </a>
+                </a> --}}
                 <!--end:Item-->
 
                  <!--begin::Item-->
-                 <a href="{{ route('change-password') }}" class="navi-item">
+                 {{-- <a href="{{ route('change-password') }}" class="navi-item">
                     <div class="navi-link">
                         <div class="symbol symbol-40 bg-light mr-3">
                             <div class="symbol-label">
@@ -109,7 +109,7 @@ if(file_exists( public_path().'/upload/userprofile/'.$data['userimage']) ){
 
                         </div>
                     </div>
-                </a>
+                </a> --}}
                 <!--end:Item-->
 
                 {{-- <a href="{{ route('system-setting') }}" class="navi-item">
@@ -133,9 +133,9 @@ if(file_exists( public_path().'/upload/userprofile/'.$data['userimage']) ){
                             <div class="font-weight-bold">System Setting</div>
                         </div>
                     </div>
-                </a> --}}                
+                </a> --}}
 
-                <a href="{{route('smtp-setting')}}" class="navi-item">
+                {{-- <a href="{{route('smtp-setting')}}" class="navi-item">
                     <div class="navi-link">
                         <div class="symbol symbol-40 bg-light mr-3">
                             <div class="symbol-label">
@@ -156,9 +156,9 @@ if(file_exists( public_path().'/upload/userprofile/'.$data['userimage']) ){
                             <div class="font-weight-bold">SMTP Setting</div>
                         </div>
                     </div>
-                </a>
+                </a> --}}
 
-                <a href="{{ route('audit-trails') }}" class="navi-item">
+                {{-- <a href="{{ route('audit-trails') }}" class="navi-item">
                     <div class="navi-link">
                         <div class="symbol symbol-40 bg-light mr-3">
                             <div class="symbol-label">
@@ -179,7 +179,7 @@ if(file_exists( public_path().'/upload/userprofile/'.$data['userimage']) ){
                             <div class="font-weight-bold">Audit Trails</div>
                         </div>
                     </div>
-                </a>
+                </a> --}}
             </div>
         </div>
         <!--end::Content-->

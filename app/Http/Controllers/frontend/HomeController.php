@@ -40,7 +40,6 @@ class HomeController extends Controller
     }
 
     function save_contact_details(Request $request){
-
         $objContact = new Contact();
         $result = $objContact->save_contact_details($request->all());
         if($result){

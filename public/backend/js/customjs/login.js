@@ -48,11 +48,7 @@ var Login = function(){
             handleAjaxFormSubmit(form,true);
         });
     }
-
-
-
-
-    var vibranade = function(){        
+    var vibranade = function(){
         var form = $('#form-vibramade');
         var rules = {
             name: {required: true},
@@ -85,7 +81,7 @@ var Login = function(){
             handleAjaxFormSubmit(form,true);
         });
     }
-    
+
     return {
         init:function(){
             validation();

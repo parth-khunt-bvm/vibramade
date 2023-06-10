@@ -224,14 +224,22 @@ Software Testing | ";
         $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || About Vibramade website designing company Surat provide profession web designing services, E commerce web development, Software development like CRM, ERP, MLM, Online Examination, Stock management and SEO services across Surat city and near by area of Gujarat.";
         $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Website design company, web development company, web design & development company, E-commerce web design company, Software development company, CRM Software Development Company, ERP Software development company in India,";
         $data['css'] = array(
+            'toastr/toastr.min.css'
         );
         $data['plugincss'] = array(
         );
         $data['pluginjs'] = array(
+            'toastr/toastr.min.js',
+            'plugins/validate/jquery.validate.min.js',
         );
         $data['js'] = array(
+            'comman_function.js',
+            'ajaxfileupload.js',
+            'jquery.form.min.js',
+            'login.js',
         );
         $data['funinit'] = array(
+            'Login.form()'
         );
         $data['silder'] = Config::get( 'constants.slider' );
         $data['portfolio'] = Config::get( 'constants.portfolio' );

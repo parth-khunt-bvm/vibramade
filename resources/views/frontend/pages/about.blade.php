@@ -51,8 +51,7 @@
                 </div>
                 <div class="col-md-5 mb-30 offset-md-1">
                     <h3>Get in touch</h3>
-                    <form class="contact__form"
-                          action="{{route('contact')}}" method="post">
+                    <form action="{{ route('save-contact-details') }}" method="post" class="contact__form" id="form-vibramade">
                     @csrf
                         @if(Session::has('success'))
                             <div class="alert alert-primary mt-2 successMessage">

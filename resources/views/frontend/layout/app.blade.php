@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html>
 @include('frontend.includes.header')
 
 <body>

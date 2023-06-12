@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="col col-md-6 animate-box" data-animate-effect="fadeInUp">
-                    <img src="frontend/img/Vibramade4.png" alt="" class="mt-175 mb-30">
+                    <img src="frontend/img/Vibramade4.png" alt="Vibramade4" class="mt-175 mb-30">
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@
                     <div class="owl-carousel owl-theme">
                         @foreach($course as $key => $value)
                             <div class="pricing-card">
-                                <img src="{{$value['image']}}" alt="full-stack" style="height: 196px;">
+                                <img src="{{$value['image']}}" alt="{{ $value['alt'] }}" style="height: 196px;">
                                 <div class="desc">
                                     <div class="name">{{$value['name']}}</div>
                                 </div>

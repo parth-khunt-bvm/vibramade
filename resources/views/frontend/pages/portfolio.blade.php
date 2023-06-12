@@ -29,7 +29,7 @@
                 @foreach($portfolio as $key => $value)
                 <div class="col-md-4">
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="{{ $value['image'] }}" alt=""> </div>
+                        <div class="position-re o-hidden"> <img src="{{ $value['image'] }}" alt="{{ $value['alt'] }}"> </div>
                     </div>
                 </div>
                 @endforeach

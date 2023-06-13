@@ -13,8 +13,8 @@ use Redirect;
 class HomeController extends Controller
 {
     function home(){
-        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " - IT Services Provider ";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - Vibramade is a professional IT Services Provider Company in India offers Web designing & Development, Software Development, E-Commerce Solution, Inventory stock management software services.";
+        $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " - IT Services Provider in India";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - IT Services Provider in India offers Web designing & Development, Software Development, CMS software services.";
         $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - Website designing, software development, E-commerce website development, website designing company, web development company, CRM Software Development, ERP Software development company in Surat, Gujarat, India.";
         $data['css'] = array(
             'toastr/toastr.min.css'

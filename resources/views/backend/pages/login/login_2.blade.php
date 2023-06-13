@@ -11,7 +11,7 @@
 
                 <div class="d-flex flex-center mb-10">
                     <a href="javascript:;">
-                        <img src="{{  asset('frontend/img/logo-home.png') }}" class="max-h-110px" alt="" style="width: 250px;"/>
+                        <img src="{{  asset('frontend/img/logo-home.png') }}" class="max-h-110px" alt="Vibramade-logo" style="width: 250px;"/>
                     </a>
                 </div>
 

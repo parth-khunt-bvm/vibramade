@@ -15,7 +15,7 @@
     <div class="container">
         <!-- Logo -->
         <div class="logo-wrapper">
-            <a class="logo" href="{{route('home')}}"> <img src="frontend/img/logo-home.png" class="logo-img" alt=""> </a>
+            <a class="logo" href="{{route('home')}}"> <img src="{{asset('frontend/img/logo-home.png')}}" class="logo-img" alt="Vibramade-logo"> </a>
         </div>
         <!-- Button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>

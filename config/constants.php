@@ -78,56 +78,56 @@ return [
             'image' => 'frontend/img/course/Vibramade10.png',
         ),
     ],
-    'portfolio' => [
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade1.jpg',
-            'alt' => 'Vibramade portfolio-1',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade2.jpg',
-            'alt' => 'Vibramade portfolio-2',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade3.jpg',
-            'alt' => 'Vibramade portfolio-3',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade4.jpg',
-            'alt' => 'Vibramade portfolio-4',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade5.jpg',
-            'alt' => 'Vibramade portfolio-5',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade6.jpg',
-            'alt' => 'Vibramade portfolio-6',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade7.jpg',
-            'alt' => 'Vibramade portfolio-7',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade8.jpg',
-            'alt' => 'Vibramade portfolio-8',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade9.jpg',
-            'alt' => 'Vibramade portfolio-9',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade10.jpg',
-            'alt' => 'Vibramade portfolio-10',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade11.jpg',
-            'alt' => 'Vibramade portfolio-11',
-        ),
-        array(
-            'image' => 'frontend/img/portfolio/Vibramade12.jpg',
-            'alt' => 'Vibramade portfolio-12',
-        ),
-    ]
+    // 'portfolio' => [
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade1.jpg',
+    //         'alt' => 'Vibramade portfolio-1',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade2.jpg',
+    //         'alt' => 'Vibramade portfolio-2',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade3.jpg',
+    //         'alt' => 'Vibramade portfolio-3',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade4.jpg',
+    //         'alt' => 'Vibramade portfolio-4',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade5.jpg',
+    //         'alt' => 'Vibramade portfolio-5',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade6.jpg',
+    //         'alt' => 'Vibramade portfolio-6',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade7.jpg',
+    //         'alt' => 'Vibramade portfolio-7',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade8.jpg',
+    //         'alt' => 'Vibramade portfolio-8',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade9.jpg',
+    //         'alt' => 'Vibramade portfolio-9',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade10.jpg',
+    //         'alt' => 'Vibramade portfolio-10',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade11.jpg',
+    //         'alt' => 'Vibramade portfolio-11',
+    //     ),
+    //     array(
+    //         'image' => 'frontend/img/portfolio/Vibramade12.jpg',
+    //         'alt' => 'Vibramade portfolio-12',
+    //     ),
+    // ]
 
 ];
 ?>

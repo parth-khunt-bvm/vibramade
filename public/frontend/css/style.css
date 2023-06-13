@@ -376,6 +376,11 @@ blockquote cite:before {
 .pricing-card img{
     height: 196px;
  }
+ .map_size{
+    height: 550px !important;
+    width: 100% !important;
+    border: 0px !important;
+ }
 .v-bottom {
     position: absolute;
     width: 100%;

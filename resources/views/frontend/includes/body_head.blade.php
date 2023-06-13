@@ -25,11 +25,11 @@
                 <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Home</a></li>
                 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Services<i class="ti-angle-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="{{route('website_development')}}" class="dropdown-item"><span>Website Development</span></a></li>
-                        <li><a href="{{route("mobile_application_development")}}" class="dropdown-item"><span>Mobile Application Development</span></a></li>
-                        <li><a href="{{route("ui_ux_graphic_design")}}" class="dropdown-item"><span>UI/UX/Graphic Design</span></a></li>
-                        <li><a href="{{route("custom_software_development")}}" class="dropdown-item"><span>Custom Software Development</span></a></li>
-                        <li><a href="{{route("quality_assurance")}}" class="dropdown-item"><span>Quality Assurance</span></a></li>
+                        <li><a href="{{route('website-development')}}" class="dropdown-item"><span>Website Development</span></a></li>
+                        <li><a href="{{route("mobile-application-development")}}" class="dropdown-item"><span>Mobile Application Development</span></a></li>
+                        <li><a href="{{route("ui-ux-graphic-design")}}" class="dropdown-item"><span>UI/UX/Graphic Design</span></a></li>
+                        <li><a href="{{route("custom-software-development")}}" class="dropdown-item"><span>Custom Software Development</span></a></li>
+                        <li><a href="{{route("quality-assurance")}}" class="dropdown-item"><span>Quality Assurance</span></a></li>
                     </ul>
                 </li>
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route("portfolio")}}">Portfolio</a></li> --}}

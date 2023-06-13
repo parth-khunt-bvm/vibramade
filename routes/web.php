@@ -34,11 +34,11 @@ Route::get('/clear-cache', function() {
 Route::get('/',[HomeController::class,'home'])->name('home');
 Route::post('save-contact-details',[HomeController::class,'save_contact_details'])->name('save-contact-details');
 Route::get('contact',[HomeController::class,'contact'])->name('contact');
-Route::get('website_development',[HomeController::class,'website_development'])->name('website_development');
-Route::get('mobile_application_development',[HomeController::class,'mobile_application_development'])->name('mobile_application_development');
-Route::get('ui_ux_graphic_design',[HomeController::class,'ui_ux_graphic_design'])->name('ui_ux_graphic_design');
-Route::get('custom_software_development',[HomeController::class,'custom_software_development'])->name('custom_software_development');
-Route::get('quality_assurance',[HomeController::class,'quality_assurance'])->name('quality_assurance');
+Route::get('website-development',[HomeController::class,'website_development'])->name('website-development');
+Route::get('mobile-application-development',[HomeController::class,'mobile_application_development'])->name('mobile-application-development');
+Route::get('ui-ux-graphic-design',[HomeController::class,'ui_ux_graphic_design'])->name('ui-ux-graphic-design');
+Route::get('custom-software-development',[HomeController::class,'custom_software_development'])->name('custom-software-development');
+Route::get('quality-assurance',[HomeController::class,'quality_assurance'])->name('quality-assurance');
 Route::get('portfolio',[HomeController::class,'portfolio'])->name('portfolio');
 //Route::get('blog',[HomeController::class,'blog'])->name('blog');
 Route::get('about',[HomeController::class,'about'])->name('about');

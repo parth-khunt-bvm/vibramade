@@ -373,6 +373,9 @@ blockquote cite:before {
     -webkit-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
 }
+.pricing-card img{
+    height: 196px;
+ }
 .v-bottom {
     position: absolute;
     width: 100%;

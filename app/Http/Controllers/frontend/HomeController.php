@@ -15,7 +15,7 @@ class HomeController extends Controller
     function home(){
         $data['title'] = Config::get( 'constants.PROJECT_NAME' ) . " - IT Services Provider in India";
         $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - IT Services Provider in India offers Web designing & Development, Software Development, CMS software services.";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - Website designing, software development, E-commerce website development, website designing company, web development company, CRM Software Development, ERP Software development company in Surat, Gujarat, India.";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - Website designing, software development, E-commerce website development, website designing company, web development company in India.";
         $data['css'] = array(
             'toastr/toastr.min.css'
         );
@@ -59,8 +59,8 @@ class HomeController extends Controller
 
     function contact(){
         $data['title'] =  "Contact - IT Services Provider";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - Contact Vibramade website designing company Surat provide profession web designing services, E commerce web development, Software development like CRM, ERP, Stock management and SEO services across Surat city.";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - Web development company, web design & development company, E-commerce web design company, Software development company, CRM Software Development Company, ERP, MLM Software development company in Surat.";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - Contact Vibramade website designing company Surat provide profession web designing services, Software development and SEO services across Surat city.";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - Web development company, web design & development company, E-commerce web design company, Software development company in Surat.";
         $data['css'] = array(
             'toastr/toastr.min.css'
         );
@@ -86,8 +86,8 @@ class HomeController extends Controller
 
     function website_development(){
         $data['title'] = " Website Development - IT Services Provider";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - Software Development company, Software Company, CRM Software Surat, ERP Software Surat, MLM Software Surat, Stock management software, Vibramade Software Company, Software development services in Surat.";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - India offering All types of Software development services in Surat like ERP Software, CRM Software, MLM Software, Online Exam Software, Stock managment Software, Inventory Software in Surat, Gujarat, India.";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - Software Development company, CRM Software Surat, ERP Software Surat, MLM Software Surat, Stock management software, Software development services in Surat.";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - India offering All types of Software development services in Surat like Web development company, web design & development company in India.";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -105,7 +105,7 @@ class HomeController extends Controller
 
     function mobile_application_development(){
         $data['title'] =" Mobile Application Development - IT Services Provider";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - India offering iPhone application development services as per the requirements of our clients to provide them with 100% satisfaction & tap into the iPhone market. We have experienced and qualified iPad|iPhone|iOSApp|TabletApp|Android App developers and specialists to develop and customize applications for all models";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - India offering iPhone application development services as per the requirements of our clients to provide them with 100% satisfaction & tap into the iPhone market. We have experienced and qualified App developers and specialists to develop and customize applications for all models";
         $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - iPhone Application Development | iOS App Development | iPad Application Development | Tablet Application Developers | Android App Developmen Services";
         $data['css'] = array(
         );
@@ -124,8 +124,8 @@ class HomeController extends Controller
 
     function ui_ux_graphic_design(){
         $data['title'] = " UI/UX Graphic Design - IT Services Provider";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || We create a unique, responsive, and user-friendly UI design for app and web development. We provide the best UI for our clients.";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Website designing company in Surat, Website Designing services in Surat, Static website designing, Dynamic Website Designing, Responsive website designing, Surat, Web Designing company in Surat, Website designing services in Surat, Gujarat, India.";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - We create a unique, responsive, and user-friendly UI design for app and web development. We provide the best UI for our clients.";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - Website designing company, Static website designing, Dynamic Website Designing, Responsive website designing, Web Designing company in India.";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -143,8 +143,8 @@ class HomeController extends Controller
 
     function custom_software_development(){
         $data['title'] = " Custom Software Development - IT Services Provider";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Custom Software Development";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Custom Software Development";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - Custom Software Development";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - Custom Software Development";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -162,8 +162,8 @@ class HomeController extends Controller
 
     function quality_assurance(){
         $data['title'] = " Quality Assurance - IT Services Provider";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || SEO is not usually associated with QA testing. In fact, at most companies, SEO analysts and QA testers work completely separately in different departments. While we’re not advocating for QA testers to replace SEO specialists, it can be extremely beneficial for QA to learn the basics of SEO — and incorporate this knowledge when testing websites.";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Manual Testing | Automated Testing | Performance Testing | Website Testing | Mobile App Testing All Type Mindful QA Software Testing Services
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - SEO is not usually associated with QA testing. In fact, at most companies, SEO analysts and QA testers work completely separately in different departments.";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - Manual Testing | Automated Testing | Performance Testing | Website Testing | Mobile App Testing All Type Mindful QA Software Testing Services.
 Software Testing | ";
         $data['css'] = array(
         );
@@ -182,8 +182,8 @@ Software Testing | ";
 
     function portfolio(){
         $data['title'] = " Portfolio - IT Services Provider";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || Portfolio of Vibramade website designing company Surat provide profession web designing services, E commerce web development, Software development like CRM, ERP, MLM, Online Examination, Stock management and SEO services across Surat city and near by area of Gujarat.";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Website design company portfolio, web development company, web design & development company,E-commerce web design company, Software development company, CRM Software Development Company, ERP Software development company, web development company, Website design company in Surat, Gujarat, India.";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - of Vibramade website designing company Surat provide profession web designing services, E-commerce web development, Software development in India.";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - web development company, web design & development company,E-commerce web design company, Software development company in India.";
         $data['css'] = array(
         );
         $data['plugincss'] = array(
@@ -220,8 +220,8 @@ Software Testing | ";
 
     function about(){
         $data['title'] = " About - IT Services Provider";
-        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " || About Vibramade website designing company Surat provide profession web designing services, E commerce web development, Software development like CRM, ERP, MLM, Online Examination, Stock management and SEO services across Surat city and near by area of Gujarat.";
-        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " || Website design company, web development company, web design & development company, E-commerce web design company, Software development company, CRM Software Development Company, ERP Software development company in India,";
+        $data['description'] = Config::get( 'constants.PROJECT_NAME' ) . " - About Vibramade website designing company Surat provide profession web designing services, E-commerce web development, Software development in India.";
+        $data['keywords'] = Config::get( 'constants.PROJECT_NAME' ) . " - web development company, web design & development company, E-commerce web design company, Software development company in India.";
         $data['css'] = array(
             'toastr/toastr.min.css'
         );

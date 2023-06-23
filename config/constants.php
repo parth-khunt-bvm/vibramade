@@ -5,6 +5,8 @@ return [
     'PHONE' => '+91 7046883773',
     'ADDRESS_LINE1' => 'Block-B, A-308, ICC building, Majura Gate,',
     'ADDRESS_LINE2' => 'Surat, Gujarat 395008',
+    'ADDRESS_LINE3' => '2046, Silver Business Point, VIP Cir, near Royal Square,',
+    'ADDRESS_LINE4' => 'Uttran, Surat, Gujarat 394101',
     'SHORT_DESCTION' => 'Custom Development for Modern Business Success',
     'COPYRIGHTLINE' => '<p class="footer-bottom-copy-right">© Copyright 2023 by <a href="#">vibramade@gmail.com</a></p>',
 

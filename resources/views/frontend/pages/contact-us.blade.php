@@ -40,7 +40,9 @@
                     <div class="reservations">
                         <div class="icon"><span class="flaticon-location-pin"></span></div>
                         <div class="text">
-                            <p>Address</p> {{ Config::get( 'constants.ADDRESS_LINE1' ) }}
+                            <p>Address</p> {{ Config::get( 'constants.ADDRESS_LINE3' ) }}
+                            <br>{{ Config::get( 'constants.ADDRESS_LINE4' ) }} <br> <br>
+                            {{ Config::get( 'constants.ADDRESS_LINE1' ) }}
                             <br>{{ Config::get( 'constants.ADDRESS_LINE2' ) }}
                         </div>
                     </div>

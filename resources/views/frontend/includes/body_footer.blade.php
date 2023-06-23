@@ -15,9 +15,7 @@
                         <ul class="footer-explore-list list-unstyled">
                             <li><a href="{{route('home')}}">Home</a></li>
                             <li><a href="#">Services</a></li>
-                            {{-- <li><a href="{{route("portfolio")}}">Portfolio</a></li> --}}
-{{--                            <li><a href="{{route("blog")}}">Blog</a></li>--}}
-                            <li><a href="{{route("about")}}">About</a></li>
+                            <li><a href="{{route('about')}}">About</a></li>
                             <li><a href="{{route('contact')}}">Contact</a></li>
                         </ul>
                     </div>
@@ -25,6 +23,7 @@
                 <div class="col-md-4">
                     <div class="footer-column footer-contact">
                         <h3 class="footer-title">Contact</h3>
+                        <p class="footer-contact-text">{{ Config::get( 'constants.ADDRESS_LINE3' ) }}<br>{{ Config::get( 'constants.ADDRESS_LINE4' ) }}</p>
                         <p class="footer-contact-text">{{ Config::get( 'constants.ADDRESS_LINE1' ) }}<br>{{ Config::get( 'constants.ADDRESS_LINE2' ) }}</p>
                         <div class="footer-contact-info">
                             <p class="footer-contact-phone"><span class="flaticon-call"></span> {{ Config::get( 'constants.PHONE' ) }}</p>

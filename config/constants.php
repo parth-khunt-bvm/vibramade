@@ -1,6 +1,5 @@
 <?php
 return [
-
     'PROJECT_NAME' => 'Vibramade',
     'EMAIL' => 'info@vibramade.com',
     'PHONE' => '+91 7046883773',
